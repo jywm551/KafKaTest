@@ -14,7 +14,7 @@ import java.util.Properties;
 public class ConsumerDemo {
     public static void main(String[] args) {
         Properties properties = new Properties();
-        properties.put("bootstrap.servers", "192.168.1.110:9092");
+        properties.put("bootstrap.servers", "172.25.166.129:9092");
         properties.put("group.id", "group-1");
         properties.put("enable.auto.commit", "true");
         properties.put("auto.commit.interval.ms", "1000");

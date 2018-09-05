@@ -14,7 +14,7 @@ public class ProducerDemo {
     public static void main(String[] args) {
         Properties properties = new Properties();
         // 集群地址 bootstrap.servers
-        properties.put("bootstrap.servers", "192.168.1.110:9092");
+        properties.put("bootstrap.servers", "172.25.166.129:9092");
         properties.put("acks", "all");
         properties.put("retries", 0);
         properties.put("batch.size", 16384);
